@@ -1,4 +1,4 @@
-package exceptions_string_to_integer;
+package thirty_days_of_code.exceptions_string_to_integer;
 
 import java.util.Scanner;
 
