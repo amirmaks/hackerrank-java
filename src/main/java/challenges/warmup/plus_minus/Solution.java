@@ -21,7 +21,7 @@ public class Solution {
         };
 
         for (float e: results) {
-            System.out.printf("%.6f \n", e);
+            System.out.printf("%.6f%n", e);
         }
     }
 
@@ -36,7 +36,6 @@ public class Solution {
             arr[i] = Integer.parseInt(arrItems[i]);
         }
 
-//        int[] ar = {-4, 3, -9, 0, 4, 1 };
         plusMinus(arr);
     }
 }
