@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Solution {
 
-    void coctailSort(int a[])
+    void cocktailSort(int a[])
     {
         boolean swapped = true;
         int start = 0;
@@ -45,7 +45,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         int a[] = {5, 1, 4, 2, 8, 0, 2};
-        s.coctailSort(a);
+        s.cocktailSort(a);
         System.out.println(Arrays.toString(a));
     }
 }
