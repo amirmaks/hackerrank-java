@@ -39,6 +39,14 @@ class Solution{
 
     }
 
+    static void preOrder(Node root) {
+        if (root == null) return;
+
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
     public static Node insert(Node root,int data){
         if(root==null){
             return new Node(data);
@@ -74,5 +82,7 @@ class Solution{
         root = insert(root, 2);
         root = insert(root, 1);
         levelOrder(root);
+        System.out.println('\n');
+        preOrder(root);
     }
 }
