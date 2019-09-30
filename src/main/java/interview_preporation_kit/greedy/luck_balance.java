@@ -1,6 +1,5 @@
 package interview_preporation_kit.greedy;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
